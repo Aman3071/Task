@@ -6,7 +6,8 @@ body {
 
 .container {
   display: flex;
-  background-color: #ebf2f5;
+  background-color: white;
+  border-radius: 1px solid gray;
 }
 
 .sidebar {
@@ -60,6 +61,8 @@ h2 {
   background: white;
   padding: 20px;
   border-radius: 8px;
+  border: 1px solid lightgray;
+  margin-top: 30px;
 }
 
 input[type="text"] {
@@ -71,6 +74,10 @@ input[type="text"] {
   border-radius: 5px;
 }
 
+.blue-bar {
+  color: blue;
+}
+
 .upload-section {
   display: flex;
   gap: 20px;
@@ -79,7 +86,7 @@ input[type="text"] {
 .upload-box {
   flex: 1;
   text-align: center;
-  border: 1px dashed #ccc;
+  border: 2px dashed #ccc;
   padding: 20px;
   border-radius: 5px;
   background: #f8f8f8;
@@ -90,6 +97,7 @@ input[type="text"] {
   background: #eaf3fc;
   border-radius: 5px;
   cursor: pointer;
+  background: transparent;
 }
 
 .radio-group {
@@ -116,6 +124,7 @@ input[type="text"] {
   cursor: pointer;
   border-radius: 5px;
   margin-left: auto;
+  margin-bottom: 10px;
 }
 
 .text-muted {
@@ -130,4 +139,14 @@ input[type="text"] {
 .uploadImage {
   color: blue;
   font-size: 50px;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.last p:last-child {
+  margin-right: 430px;
 }
